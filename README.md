@@ -36,23 +36,29 @@ El propósito de este proyecto es practicar y aplicar las mejores prácticas en 
 
 ## Estructura del Proyecto
 
-practica_backend_fastapi/
-│
-├─ routes/
-│  ├─ init.py
-│  ├─ transaction_router.py
-│  └─ user_routes.py
-│
-├─ venv/ -> crear entorno virtual
-│  ├─ ...
-│
-├─ .gitignore
-├─ db.py
-├─ main.py
-├─ models.py
-├─ mydb.db
-├─ README.md
-└─ requirements.txt
+
+### Descripción de Archivos y Directorios
+
+- **routes/**: Contiene los archivos de configuración de rutas para la API.
+  - `__init__.py`: Archivo de inicialización del paquete.
+  - `transaction_router.py`: Rutas relacionadas con transacciones.
+  - `user_routes.py`: Rutas relacionadas con usuarios.
+
+- **venv/**: Directorio del entorno virtual.
+
+- **.gitignore**: Archivo para ignorar ciertos archivos y directorios en Git.
+
+- **db.py**: Configuración y manejo de la base de datos.
+
+- **main.py**: Punto de entrada principal de la aplicación FastAPI.
+
+- **models.py**: Definiciones de modelos de datos.
+
+- **mydb.db**: Archivo de la base de datos SQLite.
+
+- **README.md**: Documentación del proyecto.
+
+- **requirements.txt**: Lista de dependencias del proyecto.
 
 
 ## Creación de Schemas
